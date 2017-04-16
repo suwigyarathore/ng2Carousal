@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<ng2-carousel [componentType]="componentType"
+              [componentOutputEmitter]="outputEmitter"
+              [componentInputMapArray]="dataArrayObservable | async"
+              (itemClickEmitter)="itemClicked($event)"></ng2-carousel>

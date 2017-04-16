@@ -1,5 +1,7 @@
 # Ng2Crousal
 
+This project is for depicting Angular2 carousal written in vanilla JS without any Jquery or plugin.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.1.
 
 ## Development server

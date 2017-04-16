@@ -1,0 +1,12 @@
+<div fxLayout="row" fxLayoutAlign="center center">
+  <button  md-button (click)="slideItem('left')" fxShow="true" fxShow.xs="false"
+           class="ng2-carousel__previous ng2-carousel__shift-icons"></button>
+  <div fxLayout="row"
+       fxLayoutAlign="center center" class="ng2-carousel__container" >
+    <div fxLayout="row" fxLayoutAlign="center end" class="ng2-carousel">
+      <span #container></span>
+    </div>
+  </div>
+  <button  md-button (click)="slideItem('right')" fxShow="true" fxShow.xs="false"
+           class="ng2-carousel__next ng2-carousel__shift-icons"></button>
+</div>

@@ -1,0 +1,25 @@
+ng2-carousel {
+    width: 100%;
+}
+ng2-carousel .ng2-carousel {
+    position: relative;
+    transition: left 0.5s;
+    transition-timing-function: ease-in-out;
+}
+ng2-carousel .ng2-carousel__previous {
+    margin-right: 32px;
+    background: url(../../assets/icons/left.svg) 100% no-repeat;
+}
+ng2-carousel .ng2-carousel__next {
+    margin-left: 32px;
+    background: url(../../assets/icons/right.svg) no-repeat;
+}
+ng2-carousel .ng2-carousel__shift-icons {
+    margin-top: 8px;
+    cursor: pointer;
+}
+ng2-carousel .ng2-carousel__container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
